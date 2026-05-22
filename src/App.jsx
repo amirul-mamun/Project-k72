@@ -6,10 +6,7 @@ import Projects from './pages/Projects'
 
 const App = () => {
   return (
-    <div className='bg-black text-white h-screen' >
-      {/* <Link to = '/' >Home</Link>
-      <Link to = '/agence' >Agence</Link>
-      <Link to = '/projects' >Projects</Link> */}
+    <div className=' text-white h-screen' >
       <Routes>
          <Route path='/' element ={<Home/>} />
          <Route path='/agence' element ={<Agence/>} />
