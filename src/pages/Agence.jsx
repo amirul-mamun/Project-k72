@@ -53,7 +53,7 @@ const Agence = () => {
     <div className='text-black' >
       <div className="section1">
         <div ref={imagediv} className='absolute h-[76] w-60 rounded-2xl overflow-hidden object-cover top-[35%] left-[32%]' >
-         <img ref={imageRef} src="https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+         <img ref={imageRef} className='h-full w-full object-cover' src="https://images.unsplash.com/flagged/photo-1573603867003-89f5fd7a7576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
        </div>
        <div className='relative' >
          <div className=' mt-[55vh] '  >
